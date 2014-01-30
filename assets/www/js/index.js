@@ -9,7 +9,9 @@
 var bluetoothSerial = cordova.require('bluetoothSerial');
 
 var app = {
-    macAddress: "AA:BB:CC:DD:EE:FF",  // get your mac address from bluetoothSerial.list
+//8C:77:12:DF:AC:6E
+//00:1C:9A:45:A0:AA
+    macAddress: "8C:77:12:DF:AC:6E",  // get your mac address from bluetoothSerial.list
     chars: "",
 
 /*
@@ -32,6 +34,7 @@ var app = {
 */
     onDeviceReady: function() {
         // check to see if Bluetooth is turned on.
+        // this function is called only
         // this function is called only
         //if isEnabled(), below, returns success:
         var listPorts = function() {
