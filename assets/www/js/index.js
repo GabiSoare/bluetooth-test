@@ -11,7 +11,7 @@ var bluetoothSerial = cordova.require('bluetoothSerial');
 var app = {
 //8C:77:12:DF:AC:6E
 //00:1C:9A:45:A0:AA
-    macAddress: "8C:77:12:DF:AC:6E",  // get your mac address from bluetoothSerial.list
+    macAddress: "00:1C:9A:45:A0:AA",  // get your mac address from bluetoothSerial.list
     chars: "",
 
 /*
